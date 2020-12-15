@@ -7,8 +7,8 @@
     This script is a Controller Script to trigger a specified action on a Windows Server to Test/Start/Stop Services. The File-name must be specified as "qservices_[test/up/down].ps1"
 
 .NOTES
-    Author: Floris Bechger, Technisch Applicatie Beheerder Planning
-	E-mail: floris.bechger@gvb.nl; floris.bechger@gmail.com
+    Author: Floris Bechger, Systems engineer
+    E-mail: floris.bechger@gmail.com
     Last Edit: 2020-11-06
     Version 1.0 - initial release
 #>
