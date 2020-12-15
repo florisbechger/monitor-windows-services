@@ -1,5 +1,5 @@
 # windows
-Powershell Windows Services Test/Start/Stop script
+Powershell script to Monitor/Start/Stop Services on Windows Server editions
 
 Howto install:
 
