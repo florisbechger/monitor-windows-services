@@ -1,16 +1,26 @@
 
 # Monitor Windows Services through Powershell
 
-Monitor, Start and Stop Services on various Windows Server editions
+## Information
 
-Howto initial install:
+Monitor, Start and Stop Services on various Windows Server editions
+* A selection of Controller and Customizable Variable scripts to Monitor, Stop or Start Windows Services
+
+## Technologies
+
+* Powershell
+* Windows
+	
+## Setup
+
+A. Initial install and First run:
 
 1. Download and save All files to your desktopfolder, (re)name this folder to "qservices" (small-caps)
 2. Change the main Variables script "qservices_variables.ps1" to your needs
 3. Change Service values in "laptop_test.ps1, laptop_down.ps1 and laptop_up.ps1"
 4. Run "laptop_menu.ps1"
 
-Howto add more Windows Server scripts:
+B. Add more Windows Server scripts:
 
 1. Copy "laptop_test.ps1, laptop_down.ps1 and laptop_up.ps1" to an alternative [server-name]_[test/down/up].ps1 file
 2. Make sure your sequence numbering and services in these scripts are correct.
