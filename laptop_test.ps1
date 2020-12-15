@@ -28,21 +28,15 @@ Write-Host "$Admin $Domain $ShareFolder $DesktopFolder $ScriptFolder $LogFolder 
 
 ## 1. Client File Variables (laptopf) ##
 Set-Variable -Name ClientScript -Value laptop_test.ps1 -Scope Global -ErrorAction SilentlyContinue
-# Set-Variable -Name ClientScript -Value laptop_up.ps1 -Scope Global -ErrorAction SilentlyContinue
-# Set-Variable -Name ClientScript -Value laptop_down.ps1 -Scope Global -ErrorAction SilentlyContinue
 
 ## 2. Server Variables (laptopf) ##
 Set-Variable -Name Server -Value laptopf -Scope Global -ErrorAction SilentlyContinue # (DV)
 
 ## 3. Controller Variables ##
 Set-Variable -Name MainScript -Value qservices_test.ps1 -Scope Global -ErrorAction SilentlyContinue
-# Set-Variable -Name MainScript -Value qservices_up.ps1 -Scope Global -ErrorAction SilentlyContinue
-# Set-Variable -Name MainScript -Value qservices_down.ps1 -Scope Global -ErrorAction SilentlyContinue
 
 ## 4. Action Variables ##
 Set-Variable -Name State -Value TEST -Scope Global -ErrorAction SilentlyContinue
-# Set-Variable -Name State -Value UP -Scope Global -ErrorAction SilentlyContinue
-# Set-Variable -Name State -Value DOWN -Scope Global -ErrorAction SilentlyContinue
 
 ## 5. laptopf Service Variables (UP) ##
 Set-Variable -Name Service01 -Value diagnosticshub.standardcollector.service -Scope Global -ErrorAction SilentlyContinue
