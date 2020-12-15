@@ -1,5 +1,5 @@
 # windows
-Windows scripts
+Powershell Services test/stert/stop script
 
 Howto install:
 
@@ -13,5 +13,5 @@ Make sure your sequence numbering and services are correct.
 Copy and (re)name "laptop_menu.ps1" according the same naming convention.
 Run "[server-name]_menu.ps1"
 
-There are a few other options to select from in the menu (e.g. Select Log-Folder, Check Hardware)
+There are a few other options to select from in the menu (e.g. Select Log-Folder, Check Hardware, Check Variables)
 The basic Controller scripts provide you with 80 different Service listings, you can add more of course
